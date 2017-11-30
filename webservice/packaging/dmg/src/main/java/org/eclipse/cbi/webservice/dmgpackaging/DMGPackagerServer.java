@@ -103,6 +103,7 @@ public class DMGPackagerServer {
         	System.err.println("Configuration file does not exist: '" + configurationFilePath + "'");
         	parser.printUsage(System.err);
             System.err.println();
+            return false;
         }
         
         return true;
